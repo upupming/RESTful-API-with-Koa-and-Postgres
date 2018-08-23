@@ -4,13 +4,20 @@
   "private": true,
   "scripts": {
     "start": "node ./src/server/index.js",
-    "test": "./node_modules/mocha/bin/_mocha"
+    "test": "node ./node_modules/mocha/bin/_mocha"
   },
   "keywords": [],
   "author": "Michael Herman",
   "license": "ISC",
   "devDependencies": {
     "chai": "4.1.1",
+    "chai-http": "^3.0.0",
     "mocha": "3.5.0"
+  },
+  "dependencies": {
+    "knex": "^0.15.2",
+    "koa": "^2.5.2",
+    "koa-router": "^7.4.0",
+    "pg": "^7.4.3"
   }
 }
